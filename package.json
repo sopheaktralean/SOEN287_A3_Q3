@@ -1,0 +1,16 @@
+{
+    "name": "name-phone-collection-app",
+    "version": "1.0.0",
+    "description": "A simple Node.js app to collect name and phone number and validate the phone number format.",
+    "main": "exercise3.js",
+    "scripts": {
+      "start": "node exercise3.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "querystring": "^0.2.1"
+    }
+  }
+  

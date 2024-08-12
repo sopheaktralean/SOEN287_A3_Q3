@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Name and Phone Number Collection</title>
+        <style>
+            .container{
+                background-color: rgb(255, 233, 233);
+                height: 130px;
+                width: 300px;
+                margin: 10px;
+                padding: 30px;
+                border: 2px solid rgb(228, 40, 40);
+                border-radius: 4px;
+                font-size: 16px;
+                font-style: normal;
+                text-align: center;
+            }
+            .submit-button {
+                width: 70px;
+                height:25px;
+                background-color:rgb(180, 202, 235);
+                color: #000000;
+                border: 1px solid rgb(70, 119, 255);
+                border-radius: 4px;
+                cursor: pointer;
+                
+            }
+            .submit-button:hover {
+                background-color: rgb(96, 134, 240);
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="container" action="/submit" method="POST">
+            <legend>Please Fill In Your Information</legend>
+            <label for= "name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="First and Last Name"required>
+            <br><br>
+            <label for= "phonenumber">Phone number: </label>
+            <input type="text" id="phonenumber" name="phonenumber" placeholder="ddd-ddd-dddd" required>
+            <br><br>
+            <button type="submit" action="submit" class="submit-button">Submit</button>
+        </form>
+    </body>
+</html>
